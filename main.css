@@ -9,13 +9,15 @@ body {
 }
 
 main {
-    position: fixed;
+    position: relative;
     top: 50px;
     bottom: 50px;
-    left: 200px;
+    left: 0px;
     right: 0;
     overflow: auto;
     background: #fff;
+    transition: margin-left 0.5s;
+    padding: 20px;
 }
 
 #header {
@@ -46,6 +48,7 @@ main {
     width: 200px;
     overflow: auto;
     background: #a9d;
+    transition: 0.5;
 }
 
 .inner_container {
@@ -59,6 +62,11 @@ main {
 .sub_container {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.list_container {
+    display: block;
+    transition: 0.3;
 }
 
 
