@@ -76,3 +76,11 @@ iframe {
     width: 850px;
     height: 700px;
 }
+
+img {
+    top: 50px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
