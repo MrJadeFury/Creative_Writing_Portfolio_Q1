@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     height: 100%;
     max-height: 100%;
     font-family: 'Noto Sans', sans-serif;
@@ -83,4 +82,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+}
+
+.reflection_paragraph {
+    text-indent: 2.0em;
+}
+
+\#reflections_container{
+    overflow: scroll;
+    top: 20px;
 }
