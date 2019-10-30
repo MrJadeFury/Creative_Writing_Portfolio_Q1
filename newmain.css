@@ -87,8 +87,3 @@ img {
 .reflection_paragraph {
     text-indent: 2.0em;
 }
-
-\#reflections_container{
-    overflow: scroll;
-    top: 20px;
-}
